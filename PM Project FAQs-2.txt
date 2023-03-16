@@ -1,0 +1,20 @@
+Predictive Modelling Project Problem 2 - FAQs
+Project Problem Part - 2 – Logistic Regression and Linear Discriminant Analysis
+
+Should Outlier treatment be done for this question?
+Ans: An observation is considered to be an outlier if that particular observation has been mistakenly captured in the data set. Treating outliers sometimes results in the models having better performance but the models lose out on generalization. So, a good way to approach this would be to build models with and without treating outliers and then report the results. On the other hand, it is perfectly fine if you are building your models only once, i.e. either after treating or not treating the outliers.
+
+In this problem, can a new variable be created/engineered based on the given independent variables?
+Ans: Yes, new variables can be derived/created/engineered based on the given independent variables. Clubbing a few categories of the categorical variable is one way to create new variables. However, any kind of feature engineering can be done if the proper explanation of the same is given in the business report. But it is not at all mandatory to perform feature engineering for this project.
+
+If the model accuracy (or other model performance parameters) of the Logistic Regression model and the Linear Discriminant Analysis model is less, how do we improve it?
+Ans: To improve the model performance, hyper-parameters can be tweaked until a suitable combination of hyper-parameters is found which gives the most optimum performance. Some kind of feature engineering (like outlier treatment or encoding of categorical variables amongst other things) can be looked at to improve the model performance.
+
+Should scaling of the variable be done before fitting the Logistic Regression model and the Linear Discriminant Analysis model?
+Ans: No, the data should not be scaled before fitting into either of the Logistic Regression model or the Linear Discriminant Analysis model. The same has been mentioned in the rubric for this particular question.
+
+Do we need to compare the model performance for both training and test for both Logistic Regression and Linear Discriminant Analysis?
+Ans: Yes, the comparison of model performance over both training and test is necessary. This tells us how well the model generalizes on unseen data. All possible model performance measures should be calculated and compared on the training and test data across both Logistic Regression and Linear Discriminant Analysis.
+
+What kind of business recommendations and business insights should be put in the report?
+Ans: It is expected that the EDA results and the model results are summarized and put in a proper format. Any additional pointers that might be necessary for the business to understand from the data. The models need to be evaluated in terms of the various model performance parameters both on the training and the test set.

@@ -1,0 +1,17 @@
+We learnt that -
+USA, Russia, Germany and China are medal tally leaders in the olympics if we count beginning in 1964. They have all sent varying number of athletes into events over time and have fared better with higher contingent sizes.
+
+Women, who were not a very large part of the Olympics contingents earlier, now enjoy equal representation in the olympics teams.
+
+1980 and 1984 were weird years, with USA not participating in 1980 due to Russia invading Afghanistan and then Russia retaliating in 1984 by not participating and starting the friendship games.
+
+We found interesting insights by looking at the most successful sporting events for each of the top countries -
+While USA loves swimming, China likes diving, Russia has a penchant for wrestling and mostly all of them like athletics.
+
+GDP impacts the number of medals won by a nation positively!
+
+The most accomplished athletes list shows 50% Americans, mostly swimmers!
+
+We can predict the medal tally of a country with an error (RMSE) of just ~7 medals using linear regression on - GDP, Population, GDP_per_capita and contingent size.
+
+It is also possible to predict some sports that an athlete plays using just his height and weight. We used a very simple K-Nearest neighbors model. This can obviously be improved upon!

@@ -1,0 +1,12 @@
+notepad
+
+
+Intercept	16.6564	
+Log_GDP	-1.1254	0.161	
+Log_Population	0.3971	
+Total_Athletes	0.1462	
+Home_adv	-7.9921	
+GDP_per_capita	1.344e-05
+
+
+Medal_Won_Corrected~Log_GDP+Log_Population+Total_Athletes+Home_adv+GDP_per_capita
